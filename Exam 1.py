@@ -44,4 +44,8 @@ while play_again == "y":
         play_again = input("Please enter y or n: ")
         play_again = play_again.lower()
 
-print("Completed by, Brock")
+    # If the user chooses n, end the program and show the completion message.
+    if play_again == "n":
+        print("Completed by, Brock Harrison")
+        input("Press Enter to exit...")
+        break
